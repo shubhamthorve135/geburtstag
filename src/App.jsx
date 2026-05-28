@@ -52,7 +52,7 @@ function App() {
     <div className="min-h-screen overflow-x-hidden">
       <audio
         ref={audioRef}
-        src="/birthday-song.mp3"
+        src={`${import.meta.env.BASE_URL}music.mp3`}
         loop
         preload="auto"
       />

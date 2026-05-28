@@ -45,7 +45,7 @@ const Homepage = ({ onNavigateToMessage }) => {
           <div className="w-44 h-44 rounded-full bg-gradient-to-br from-pink-400 via-orange-300 to-purple-500 p-1 glow-effect">
 
             <img
-              src="src/assets/Divya.jpeg"
+              src={`${import.meta.env.BASE_URL}divya.jpeg`}
               alt="Divyaa"
               className="w-full h-full rounded-full object-cover border-4 border-white/20"
             />

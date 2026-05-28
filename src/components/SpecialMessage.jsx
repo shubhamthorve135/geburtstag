@@ -101,7 +101,7 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="I know birthdays are just another normal day for some people but still... I wanted to do something for you."
+                  text="Cheers to another year of you being your amazing self. I hope this year brings you as much happiness, love and success."
                   delay={3}
                 />
               </p>
@@ -115,7 +115,7 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="I admire your kindness. The way you observe and understands people. The way you find joy in the smallest things—a good meal, a beautiful sunset, the balloons. You understand that life is made of moments, not destinations."
+                  text="I admire your kindness. The way you observe and understands people. The way you find joy in the smallest things a good meal, a beautiful sunset, clouds and the balloons. You understand that life is made of moments, not destinations."
                   delay={7}
                 />
               </p>
@@ -144,14 +144,21 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="I know you haven't asked me to do any of this for this birthday."
+                  text="also I like one thing about you that how you are sorted about the things you want in life so I hope you always get best of everything you want and deserve."
+                  delay={16}
+                />
+              </p>
+
+              <p>
+                <TypingAnimation
+                  text="I know you haven't asked me to do any of this for this birthday. But accept this as a token of friendship, My final act of whatever we had have."
                   delay={17}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="Ani Divyaa, mahitiy mala your intuitions are always right and I respect your decision."
+                  text="Ani Divyaa, mahitiy mala you always think that your intuitions are always right and I respect your decision."
                   delay={19}
                 />
               </p>
@@ -172,7 +179,7 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="And honestly, people say once feelings get involved it's better to choose distance and self respect."
+                  text="And honestly, people say once feelings get involved it's better to choose distance and self."
                   delay={25}
                 />
               </p>
@@ -200,15 +207,15 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="Because you matter to me and ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela.
+                  text="Ani ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela. Raag kasa control karaycha even kami yeto mala but tari so you are a good friend and guide too.
                         So I will always thankful to you and I will be there for you, just a call/text away.
-                        Ani aapli mountains chi trip rahiliy ti pan nko visaru :)"
+                        Ani aapli mountains chi trip rahiliy ti pan nko visaru 😀"
                   delay={33}
                 />
               </p>
               <p>
                 <TypingAnimation
-                  text="Ani last la thodasa Gyaan 😭 Also please try sleeping early sometimes. Drink more water, do a little bit exercise and eat more fruits... 26 zhalis ata 😂"
+                  text="Ani last la thodasa Gyaan 😭 please try sleeping early sometimes. Drink more water, do a little bit exercise and eat more fruits... 26 chi zhalis ata 😂."
                   delay={35}
                 />
               </p>
@@ -223,7 +230,7 @@ const SpecialMessage = ({ onBack }) => {
 
               <p className="text-purple-200">
                 <TypingAnimation
-                  text="With all my love and care,"
+                  text="With lots of care and good wishes,"
                   delay={39}
                 />
               </p>
@@ -246,7 +253,7 @@ const SpecialMessage = ({ onBack }) => {
               <div className="glass-card p-3 rotate-[-2deg] hover:rotate-0 transition-all duration-500 shadow-2xl">
 
                 <img
-                  src="src/assets/us.jpeg"
+                  src={`${import.meta.env.BASE_URL}us.jpeg`}
                   alt="Us"
                   className="w-72 md:w-96 h-auto object-cover rounded-2xl"
                 />
