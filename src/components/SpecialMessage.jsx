@@ -215,7 +215,7 @@ const SpecialMessage = ({ onBack }) => {
               </p>
               <p>
                 <TypingAnimation
-                  text="Ani last la thodasa Gyaan 😭 please try sleeping early sometimes. Drink more water, do a little bit exercise and eat more fruits... 26 chi zhalis ata 😂."
+                  text="Ani last la thodasa Gyaan 😭 please try sleeping early sometimes. Drink more water, do a little bit exercise and eat more fruits... 26 chi zhalis ata 😂. Ani he sagala bghun if you have smiled a little give a like and if felt overwhelmed can't help it is what it is 🤪"
                   delay={35}
                 />
               </p>
