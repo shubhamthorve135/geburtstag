@@ -207,7 +207,7 @@ const SpecialMessage = ({ onBack }) => {
 
               <p>
                 <TypingAnimation
-                  text="Ani ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela. Raag kasa control karaycha even kami yeto mala but tari so you are a good friend and guide too.
+                  text="Ani ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela. Raagat ka bolaycha nahi, how to express yourself and be vocal for self ... so you are a good friend and guide too.
                         So I will always thankful to you and I will be there for you, just a call/text away.
                         Ani aapli mountains chi trip rahiliy ti pan nko visaru 😀"
                   delay={33}
