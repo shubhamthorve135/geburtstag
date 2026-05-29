@@ -79,7 +79,7 @@ const SpecialMessage = ({ onBack }) => {
 
             {/* Main message with typing animation */}
             <motion.div
-              className="text-left space-y-6 text-gray-100 leading-relaxed text-lg"
+              className="text-left space-y-6 text-gray-100 leading-relaxed text-lg handwritten-text"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}
@@ -192,7 +192,7 @@ const SpecialMessage = ({ onBack }) => {
 
 I really loved you. I know when I say this, you may feel burdened, and that is the last thing I want. I'm not saying it to make you feel guilty or to expect anything in return. I'm saying it because it's the truth of how I felt. You were someone I genuinely cared about, and those feelings grew naturally from the bond we shared.
 
-Even though things didn't turn out the way we hoped, there is no future. I'm grateful for every conversation, every memory, and every moment of trust between us. I will always respect your feelings, and more than anything, I want you to be happy.
+Even though things didn't turn out the way we hoped, as you say there is no future. I'm grateful for every conversation, every memory, and every moment of trust between us. I will always respect your feelings, and more than anything, I want you to be happy.
 "
                   delay={16}
                 />
