@@ -73,7 +73,7 @@ function App() {
     setAuthorized(true)
   }
 
-  const correctPassword = 'Gulabjamun@26' || 'gulabjamun@26' ||  'gulabjam@26' || 'Gulabjamun@26'
+  const correctPasswords = ['Gulabjamun@26', 'gulabjamun@26', 'gulabjam@26', 'Gulabjam@26']
 
   const totalSeconds = Math.max(0, Math.floor(timeUntilRelease / 1000))
   const days = Math.floor(totalSeconds / 86400)
@@ -136,7 +136,7 @@ function App() {
   }
 
   if (!authorized) {
-    return <PasswordGate onSuccess={handleAuthorization} correctPassword={correctPassword} />
+    return <PasswordGate onSuccess={handleAuthorization} correctPasswords={correctPasswords} />
   }
 
   return (

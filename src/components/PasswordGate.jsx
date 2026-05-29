@@ -1,13 +1,14 @@
 import { useState } from 'react';
 
-const PasswordGate = ({ onSuccess, correctPassword }) => {
+const PasswordGate = ({ onSuccess, correctPasswords }) => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    const entered = password.trim();
 
-    if (password.trim() === correctPassword) {
+    if (correctPasswords.some((valid) => valid === entered)) {
       setError('');
       onSuccess();
       return;
