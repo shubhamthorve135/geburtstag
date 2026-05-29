@@ -106,24 +106,18 @@ const SpecialMessage = ({ onBack }) => {
                 />
               </p>
 
-              <p>
-                <TypingAnimation
-                  text="So this is just a small messy little corner filled with clouds, sunsets, balloons, food cravings and random things that somehow remind me of you."
-                  delay={5}
-                />
-              </p>
 
               <p>
                 <TypingAnimation
-                  text="I admire your kindness. The way you observe and understands people. The way you find joy in the smallest things a good meal, a beautiful sunset, clouds and the balloons. You understand that life is made of moments, not destinations."
-                  delay={7}
+                  text="You are kind. The way you observe, read and understands people. The way you find joy in the smallest things a good meal, a beautiful sunset, clouds and the balloons. For me this things will always remind me of you. You understand that life is made of moments, not destinations."
+                  delay={4}
                 />
               </p>
 
               <p>
                 <TypingAnimation
                   text="I hope you always get people in your life who genuinely care about you, understand you properly and stay soft with your heart."
-                  delay={11}
+                  delay={6}
                 />
               </p>
 
@@ -131,92 +125,91 @@ const SpecialMessage = ({ onBack }) => {
               <p>
                 <TypingAnimation
                   text="May you have enough clouds to stare at, enough sunsets to pause for, enough happiness in small as well as big things and enough peace to sleep well."
-                  delay={13}
+                  delay={7}
                 />
               </p>
 
               <p>
                 <TypingAnimation
                   text="And no matter how old you grow... please always keep the child in you alive. Keep smiling, keep shining and yes... keep slaying ✨"
-                  delay={15}
+                  delay={8}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="also I like one thing about you that how you are sorted about the things you want in life so I hope you always get best of everything you want and deserve."
-                  delay={16}
+                  text="Also I envy one thing about you that how you are sorted about the things you want in life so I hope you always get best of everything you want and deserve."
+                  delay={9}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="I know you haven't asked me to do any of this for this birthday. But accept this as a token of friendship, My final act of whatever we had have."
-                  delay={17}
+                  text="I know you haven't asked me to do any of this for this birthday. But I genuinely couldn't stop myself."
+                  delay={10}
                 />
               </p>
 
-              <p>
-                <TypingAnimation
-                  text="Ani Divyaa, mahitiy mala you always think that your intuitions are always right and I respect your decision."
-                  delay={19}
-                />
-              </p>
-
-              <p>
-                <TypingAnimation
-                  text="But I genuinely couldn't stop myself."
-                  delay={21}
-                />
-              </p>
 
               <p>
                 <TypingAnimation
                   text="Kay karanar... dil to baccha hai 😭"
-                  delay={23}
+                  delay={11}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="And honestly, people say once feelings get involved it's better to choose distance and self."
-                  delay={25}
+                  text="Accept this as a token of friendship, My final act of whatever we had have."
+                  delay={12}
+                />
+              </p>
+
+              <p>
+                <TypingAnimation
+                  text="Honestly, people say once feelings get involved it's better to choose distance."
+                  delay={13}
                 />
               </p>
 
               <p>
                 <TypingAnimation
                   text="Maybe they're right."
-                  delay={27}
+                  delay={14}
                 />
               </p>
 
               <p>
                 <TypingAnimation
                   text="But I still prefer your presence in my life over pretending I don't care."
-                  delay={29}
+                  delay={15}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="Even if it's as a friend, because that was who we were and are."
-                  delay={31}
+                  text="Even if it's as a friend, because that was who we were and are. I know you may not have felt the same way about me that I felt about you, and I respect that.
+
+I really loved you. I know when I say this, you may feel burdened, and that is the last thing I want. I'm not saying it to make you feel guilty or to expect anything in return. I'm saying it because it's the truth of how I felt. You were someone I genuinely cared about, and those feelings grew naturally from the bond we shared.
+
+Even though things didn't turn out the way we hoped, there is no future. I'm grateful for every conversation, every memory, and every moment of trust between us. I will always respect your feelings, and more than anything, I want you to be happy.
+"
+                  delay={16}
                 />
               </p>
 
               <p>
                 <TypingAnimation
-                  text="Ani ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela. Raagat ka bolaycha nahi, how to express yourself and be vocal for self ... so you are a good friend and guide too.
-                        So I will always thankful to you and I will be there for you, just a call/text away.
+                  text="Jiddi ahes tu, you know yourself really well ashich raha nehmi never change. Ani ya time madhe baryachsha goshti navyane shikayla bhetlya mazyabaddal ch jyacha me kadhi vichar navata kela. Raagat kasa ani ka shant rahaycha, how to express yourself and be vocal for self ... so you are a good friend and guide too.
+                        So I will always thankful to you and tula mahitiy I will always be there for you, just a call/text away.
                         Ani aapli mountains chi trip rahiliy ti pan nko visaru 😀"
-                  delay={33}
+                  delay={18}
                 />
               </p>
               <p>
                 <TypingAnimation
                   text="Ani last la thodasa Gyaan 😭 please try sleeping early sometimes. Drink more water, do a little bit exercise and eat more fruits... 26 chi zhalis ata 😂. Ani he sagala bghun if you have smiled a little give a like and if felt overwhelmed can't help it is what it is 🤪"
-                  delay={35}
+                  delay={20}
                 />
               </p>
 
@@ -224,21 +217,21 @@ const SpecialMessage = ({ onBack }) => {
               <p className="text-pink-200 italic">
                 <TypingAnimation
                   text="Happy 26th birthday, beautiful soul. 🌸"
-                  delay={37}
+                  delay={22}
                 />
               </p>
 
               <p className="text-purple-200">
                 <TypingAnimation
-                  text="With lots of care and good wishes,"
-                  delay={39}
+                  text="With lots care and good wishes,"
+                  delay={23}
                 />
               </p>
 
               <p className="text-lg font-semibold text-sunset-400">
                 <TypingAnimation
                   text="Your Friend 🖤"
-                  delay={41}
+                  delay={24}
                 />
               </p>
             </motion.div>
@@ -251,17 +244,22 @@ const SpecialMessage = ({ onBack }) => {
               transition={{ type: 'spring', damping: 18 }}
             >
               <div className="glass-card p-3 rotate-[-2deg] hover:rotate-0 transition-all duration-500 shadow-2xl">
-
-                <img
-                  src={`${import.meta.env.BASE_URL}us.jpeg`}
-                  alt="Us"
-                  className="w-72 md:w-96 h-auto object-cover rounded-2xl"
-                />
+                <div className="grid gap-4 justify-items-center md:grid-cols-2">
+                  <img
+                    src={`${import.meta.env.BASE_URL}us.jpeg`}
+                    alt="Us"
+                    className="w-full max-w-[18rem] h-auto object-cover rounded-2xl"
+                  />
+                  <img
+                    src={`${import.meta.env.BASE_URL}us2.png`}
+                    alt="Us"
+                    className="w-full max-w-[18rem] h-auto object-cover rounded-2xl"
+                  />
+                </div>
 
                 <p className="text-center mt-4 text-pink-200 italic text-lg">
-                  one of my favorite memories ✨
+                  some of my favorite memories ✨
                 </p>
-
               </div>
             </motion.div>
 

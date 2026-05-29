@@ -22,7 +22,8 @@ const PasswordGate = ({ onSuccess, correctPassword }) => {
       <div className="w-full max-w-md rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/40 backdrop-blur-xl text-white">
         <h1 className="mb-4 text-4xl font-bold">Password Protected</h1>
         <p className="mb-6 text-sm text-gray-300">
-          Enter the password to view the birthday site.
+          Enter the password.
+          Password is the name of your favourite sweet dish followed by @ and your age.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

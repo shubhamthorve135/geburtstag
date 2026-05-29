@@ -8,7 +8,7 @@ const FloatingBalloons = () => {
       left: Math.random() * 100,
       delay: Math.random() * 2,
       duration: 10 + Math.random() * 10,
-      emoji: ['🎈', '🎉', '✨', '🧸', '🐼'][Math.floor(Math.random() * 2)],
+      emoji: ['🎈', '🎉', '✨', '🧸', '🐼'][Math.floor(Math.random() * 6)],
       size: ['text-4xl', 'text-4xl', 'text-5xl'][Math.floor(Math.random() * 3)],
     }));
   }, []);

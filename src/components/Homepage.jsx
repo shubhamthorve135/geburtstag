@@ -5,6 +5,11 @@ import Modal from './Modal';
 
 const Homepage = ({ onNavigateToMessage }) => {
   const [activeModal, setActiveModal] = useState(null);
+  const modalBgHappiness = `${import.meta.env.BASE_URL}happy.png`;
+  const modalBgCareer = `${import.meta.env.BASE_URL}career.png`;
+  const modalBgHealth = `${import.meta.env.BASE_URL}health.png`;
+  const modalBgTravel = `${import.meta.env.BASE_URL}travel.png`;
+  const modalBgFoodie = `${import.meta.env.BASE_URL}foodie.png`;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -55,7 +60,7 @@ const Homepage = ({ onNavigateToMessage }) => {
 
         {/* Title */}
         <motion.h1 className="text-5xl md:text-6xl font-bold mb-8 sunset-text" variants={itemVariants}>
-          Happy Birthday Divyaa 🌸
+          Happy Birthday Divyaaa 🌸
         </motion.h1>
 
         {/* Intro Text */}
@@ -81,7 +86,7 @@ const Homepage = ({ onNavigateToMessage }) => {
             <br />
             I know you didn't ask for this still... kay karanar, couldn't resist 😭
             <br />
-            Special message at the end as a friend :)
+            Special message at the end
           </p>
 
         </motion.div>
@@ -126,7 +131,7 @@ const Homepage = ({ onNavigateToMessage }) => {
 
           <SectionCard
             emoji="🍮"
-            title="Foodie Universe"
+            title="Foodie You"
             description="Because gulab jamun isn't just a dessert, it's a lifestyle."
             onClick={() => setActiveModal('foodie')}
           />
@@ -146,6 +151,7 @@ const Homepage = ({ onNavigateToMessage }) => {
         onClose={() => setActiveModal(null)}
         title="Happiness"
         emoji="☁️"
+        backgroundImage={modalBgHappiness}
       >
         <div className="space-y-4">
           <p>
@@ -168,6 +174,7 @@ const Homepage = ({ onNavigateToMessage }) => {
         onClose={() => setActiveModal(null)}
         title="Career & Dreams"
         emoji="💻"
+        backgroundImage={modalBgCareer}
       >
         <div className="space-y-4">
 
@@ -210,6 +217,7 @@ const Homepage = ({ onNavigateToMessage }) => {
         onClose={() => setActiveModal(null)}
         title="Health & Peace"
         emoji="🌙"
+        backgroundImage={modalBgHealth}
       >
         <div className="space-y-4">
           <p>
@@ -235,6 +243,7 @@ const Homepage = ({ onNavigateToMessage }) => {
         onClose={() => setActiveModal(null)}
         title="Travel & Adventure"
         emoji="✈️"
+        backgroundImage={modalBgTravel}
       >
         <div className="space-y-4">
           <p>
@@ -258,8 +267,9 @@ const Homepage = ({ onNavigateToMessage }) => {
       <Modal
         isOpen={activeModal === 'foodie'}
         onClose={() => setActiveModal(null)}
-        title="Foodie Universe"
+        title="Foodie You"
         emoji="🍮"
+        backgroundImage={modalBgFoodie}
       >
         <div className="space-y-4">
 
