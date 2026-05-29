@@ -15,7 +15,7 @@ function App() {
   const [now, setNow] = useState(new Date())
   const audioRef = useRef(null)
 
-  const releaseDate = new Date('2026-05-29T00:00:00')
+  const releaseDate = new Date('2026-05-30T00:00:00')
 
   useEffect(() => {
     const storedAuth = sessionStorage.getItem('birthday_auth')
