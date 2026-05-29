@@ -223,7 +223,7 @@ Even though things didn't turn out the way we hoped, there is no future. I'm gra
 
               <p className="text-purple-200">
                 <TypingAnimation
-                  text="With lots care and good wishes,"
+                  text="With lots of love, care and good wishes,"
                   delay={23}
                 />
               </p>
